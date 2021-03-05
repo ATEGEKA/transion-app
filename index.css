@@ -1,0 +1,43 @@
+/* body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: width 2s;
+}
+div:hover{
+    width:700px;
+} */
+#one{
+    background-color: brown;
+    transition-timing-function:linear;
+}
+#two{
+    background-color: black;
+    transition-timing-function: ease-in;
+}
+#three{
+    background-color: blue;
+    transition-timing-function: ease-in;
+}
+#four{
+    background-color: green;
+    transition-timing-function: ease-out;
+}
+#five{
+    background-color: yellow;
+    transition-timing-function: ease-out;
+}
+div{
+    width: 200px;
+    height: 200px;
+    transition: width 2s;
+}
+div:hover{
+    width: 700px;
+}
